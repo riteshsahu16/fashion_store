@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FashionStore" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">#D32F2F</item>
+        <item name="colorSecondary">#FF8A80</item>
+        <item name="colorSecondaryVariant">#FF1744</item>
+        <item name="pinViewStyle">@style/PinWidget.PinView</item>
+    </style>
+
+    <style name="Theme.FashionStore" parent="Base.Theme.FashionStore" />
+</resources>

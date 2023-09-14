@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cat_men"
+        android:layout_marginStart="30dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_men"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FF000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/textMen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Men"
+        app:layout_constraintStart_toStartOf="@id/cat_men"
+        app:layout_constraintTop_toBottomOf="@id/cat_men"
+        app:layout_constraintEnd_toEndOf="@id/cat_men"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cat_women"
+        android:layout_marginStart="60dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_women"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FF000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cat_men"/>
+
+    <TextView
+        android:id="@+id/textWomen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women"
+        app:layout_constraintStart_toStartOf="@id/cat_women"
+        app:layout_constraintTop_toBottomOf="@id/cat_women"
+        app:layout_constraintEnd_toEndOf="@id/cat_women"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cat_accessories"
+        android:layout_marginStart="70dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/eyeglasses"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FF000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cat_women"/>
+
+    <TextView
+        android:id="@+id/textAccessories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accessories"
+        app:layout_constraintStart_toStartOf="@id/cat_accessories"
+        app:layout_constraintTop_toBottomOf="@id/cat_accessories"
+        app:layout_constraintEnd_toEndOf="@id/cat_accessories"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cat_beauty"
+        android:layout_marginStart="70dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/cosmetics"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FF000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cat_accessories"/>
+
+    <TextView
+        android:id="@+id/textBeauty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beauty"
+        app:layout_constraintStart_toStartOf="@id/cat_beauty"
+        app:layout_constraintTop_toBottomOf="@id/cat_beauty"
+        app:layout_constraintEnd_toEndOf="@id/cat_beauty"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

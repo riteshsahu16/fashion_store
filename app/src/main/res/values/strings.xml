@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fashion Store</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="verification_para">Enter the 6-digit verification code that has been sent to registered email address.</string>
+    <string name="enter">Enter email associated with your account and we\'ll send an email with instructions to reset password\n</string>
+    <string name="reset_para">Your new password must be different from previously used password</string>
+</resources>
